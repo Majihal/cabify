@@ -1,0 +1,107 @@
+body{
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+}
+:root {
+    --primary: #44307a;
+    --title-size: 26px;
+}
+
+.primary-color {
+    color: #44307a;
+}
+
+.titulo { 
+    display: flex;
+    text-align:center;
+    font-size: 25px;
+    max-width: 50rem;
+    margin: auto;
+    padding: 80px;
+    color: #44307a;
+    font-weight: 700;
+    /* font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif; */
+}
+
+.navegador {
+    /* font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif; */
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    justify-content: center;
+    padding-right: 3rem;
+    padding-top: 2px;
+    
+   
+    
+    
+}
+
+.contenedor-parrafo{
+    
+    /* font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif; */
+    margin: auto;
+    text-align:left;
+    max-width: 500px;
+ 
+    
+}
+
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background-color: f9f9f9;
+}
+
+.image {
+    max-width: 600px;
+    width: 100%;
+    /* height: 450px; */
+}
+
+a{
+    text-decoration: none;
+}
+
+.color-parrafo{
+    color: #44307a;
+    font-weight: 400;
+    
+}
+
+.subtitle {
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+}
+
+.card-container {
+    display: flex;
+    /* background-color: blue; */
+    flex-wrap: wrap;
+}
+.container-principios {
+    max-width: 82rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card-principio {
+    width: 100%;
+    max-width: 416px;
+    color: var(--primary);
+}
+
+.card-principio h2 {
+    font-size: var(--title-size);
+}
+.card-principio h2 {
+    font-size: 24px;
+}
+
+@media (max-width: 500px) {
+    .card-principio {
+        color: red;
+    }
+}
